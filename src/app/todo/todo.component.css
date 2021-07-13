@@ -1,0 +1,67 @@
+/* Banner */
+.banner-content{
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+}
+
+#banner{
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    opacity: 0.9;
+    background: linear-gradient( to right, rgba(255, 81, 0, 0.7), rgba(255, 123, 0, 0.3)), url(banner.png) left repeat-x;; 
+}
+
+/* Form */
+
+form{
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19);
+    display: flex;
+    max-width: 400px;
+    text-align: left;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+form button{
+    text-align: center;
+    padding: 5px;
+    background: #777;
+    color: #FFF;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+/* Todo List */
+ul {
+    list-style:none;
+    text-align: left;
+}
+
+.todo-list{
+    background-color: #777;
+    opacity: 0.9;
+}
+
+li{
+    min-width: 400px;
+    max-width: 800px;
+    padding: 5px;
+    background-color: rgb(180, 170, 170);
+    opacity: 0.8;
+    border: rgb(0, 0, 0);
+    border-radius: 0.2em;
+    font-size: 1.5rem;
+    border-bottom: solid;
+}
+
+li button{
+    text-align: center;
+    padding: 2px;
+    background: #777;
+}
